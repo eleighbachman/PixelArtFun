@@ -26,6 +26,5 @@ $('#sizePicker').submit(function(event){
   event.preventDefault();
   var height = $('#inputHeight').val();
   var width = $('#inputWeight').val();
-  alert("The button was clicked with " + height + " in height and "+ width + " in width!");
   makeGrid(height, width);
 });
